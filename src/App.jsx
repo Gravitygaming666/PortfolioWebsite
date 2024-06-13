@@ -2,12 +2,34 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from './Components/navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
+    const Home = () => <h2>Home</h2>;
+    const About = () => <h2>About</h2>;
+    const Services = () => <h2>Services</h2>;
+    const Contact = () => <h2>Contact</h2>;
+
   return (
     <>
+
+
+ {
+
+    <Router>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/hobbies" component={About} />
+          <Route path="/services" component={Services} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
+}
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
