@@ -1,31 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './Components/navbar'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import NavBar from './Components/navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './App.css'; // Optional: for styling
 
 function App() {
   const [count, setCount] = useState(0)
 
     const Home = () => <h2>Home</h2>;
-    const About = () => <h2>About</h2>;
-    const Services = () => <h2>Services</h2>;
-    const Contact = () => <h2>Contact</h2>;
+    const skills = () => <h2>Skills</h2>;
+    const Projects = () => <h2>Projects</h2>;
+    const Hobbies = () => <h2>Hobbies</h2>;
 
   return (
     <>
-
-
  {
 
     <Router>
       <div>
         <NavBar />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/hobbies" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/App" exact component={Home} />
+          <Route path="/skills" component={skills} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/hobbies" component={Hobbies} />
         </Switch>
       </div>
     </Router>
