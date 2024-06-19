@@ -11,10 +11,13 @@ import './App.css'; // Optional: for styling
 function App() {
   const [count, setCount] = useState(0)
 
-    const Home = () => <h2>Home</h2>;
-    const Skills = () => <h2>Skills</h2>;
-    const Projects = () => <h2>Projects</h2>;
-    const Hobbies = () => <h2>Hobbies</h2>;
+  const Home = () => (
+  <div>
+  <h2>Home</h2>
+  <DownloadBox /> {/* Add the DownloadBox component here */}
+</div>
+);
+
 
   return (
  
@@ -29,7 +32,7 @@ function App() {
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes to Home */}
         </Routes>
-        <DownloadBox /> {/* Add the DownloadBox component here */}
+        
         <Footer />
       </div>
     </Router>
