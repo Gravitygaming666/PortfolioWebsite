@@ -5,7 +5,7 @@ import '../App.css'; // Optional: for styling
 function Skills() {
   return (
     <section id="Skills">
-      <h2>Skill</h2>
+      <h3>Skill</h3>
       <p>This is the about section.</p>
     </section>
   );

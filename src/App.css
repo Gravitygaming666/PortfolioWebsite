@@ -115,8 +115,8 @@ button:focus-visible {
 .download-box {
   background-color: #373232;
   border: 2px solid black; /* black border */
-  width: 300px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
+  width: 500px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
   position: relative;
   padding: 20px;
   color: white;
@@ -153,9 +153,9 @@ button:focus-visible {
 
 /* Image styling */
 .image {
-  width: 200px; /* Adjust width as needed */
+  width: 350px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
-  margin-left: -45px; /* Adjust to remove spacing */
+  margin-left: -70px; /* Adjust to remove spacing */
 }
 
 .footer {
@@ -182,4 +182,67 @@ button:focus-visible {
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+h2{
+
+  color: #75D9EA;
+}
+
+p{
+
+
+color: #75D9EA;
+font-size: 18px;
+
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 16px 0;
+}
+
+.card-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.card-link:hover {
+  background-color: #0056b3;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+  }
 }

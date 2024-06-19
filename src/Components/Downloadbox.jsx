@@ -13,8 +13,17 @@ const DownloadBox = () => {
   return (
     <div className="container">
       <div className="download-box">
+        <h2>My Name is Ryan</h2>
+       
+        <p>
+        I like coding as I learned to code myself and did it in education. 
+        Also I like playing video games such as dark souls and 
+        other dark souls type games. 
+        The reason I like these types of games is because I like to be challenged 
+        and I feel like these games can provide the right amount of challenge.
+        </p>
         <button className="download-button" onClick={handleDownload}>
-          Download File
+          Download CV
         </button>
       </div>
       <img className="image" src="Public/Ryan.png" alt="Description" />
