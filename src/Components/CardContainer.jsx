@@ -4,10 +4,10 @@ import '../App.css'; // Assuming you'll add CSS here
 
 function CardContainer() {
   const cards = [
-    { image: '/public/Pacman.png', title: 'Pacman', link: '/link1' },
-    { image: '/public/Project.png', title: 'Projects', link: '/Projects' },
-    { image: '/public/Skills.png', title: 'Skills', link: '/Skills' },
-    { image: '/public/Hobbies.png', title: 'Hobbies', link: '/Hobbies' },
+    { image: '/Pacman.png', title: 'Pacman', link: '/link1' },
+    { image: '/Project.png', title: 'Projects', link: '/Projects' },
+    { image: '/Skills.png', title: 'Skills', link: '/Skills' },
+    { image: '/Hobbies.png', title: 'Hobbies', link: '/Hobbies' },
   ];
 
   return (

@@ -15,8 +15,10 @@ function App() {
   const Home = () => (
   <div>
   
+  <br></br>
   <DownloadBox /> {/* Add the DownloadBox component here */}
   <CardContainer />
+  <br></br>
 </div>
 );
 

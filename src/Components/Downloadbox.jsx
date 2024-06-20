@@ -5,8 +5,8 @@ const DownloadBox = () => {
   const handleDownload = () => {
     // Logic to download the file
     const link = document.createElement('a');
-    link.href = 'public/RyanCV.pdf'; // file path
-    link.download = 'RyanCV.pdf'; // The name for the downloaded file
+    link.href = 'public/RyanHillCV.pdf'; // file path
+    link.download = 'RyanHillCV.pdf'; // The name for the downloaded file
     link.click();
   };
 
