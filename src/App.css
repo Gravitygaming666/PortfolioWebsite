@@ -250,6 +250,7 @@ font-size: 18px;
     grid-template-columns: 1fr; /* Single column layout for small screens */
   }
 }
+
 .SkillsP{
   display: flex;
   flex-direction: column; /* Align items in a column */
