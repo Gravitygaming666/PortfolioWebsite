@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillCard from './SkillCard';
+import SkillCard from '../Components/SkillCard';
 import '../App.css'; // Optional: for styling
 
 const SkillsP = () => {

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import NavBar from './Components/Navbar.jsx';
 import { BrowserRouter as Router, Route, Routes, Navigate  } from 'react-router-dom';
-import Hobbies from './Components/Hobbies.jsx';
-import Projects from './Components/Projects.jsx';
-import Skills from './Components/SkillsP.jsx';
+import Hobbies from './Pages/Hobbies.jsx';
+import Projects from './Pages/Projects.jsx';
+import Skills from './Pages/SkillsP.jsx';
 import DownloadBox from './Components/Downloadbox.jsx';
 import Footer from './Components/Footer.jsx';
 import CardContainer from './Components/CardContainer'
