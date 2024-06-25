@@ -31,7 +31,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/skillsP" element={<Skills />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes to Home */}
