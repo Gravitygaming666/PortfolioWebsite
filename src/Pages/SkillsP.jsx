@@ -14,17 +14,17 @@ const codingSkills = ["Python", "HTML", "CSS", "React", "C#", "W3C requirements"
       <SkillCard 
         icon="/public/CodingSkill.png" 
         skills={codingSkills} 
-        link="/public/coding-skills"
+        link="/"
       />
       <SkillCard 
         icon="/PersonalSkills.png" 
         skills={softSkills} 
-        link="/soft-skills"
+        link="/"
       />
       <SkillCard 
         icon="/Project.png" 
         skills={otherSkills} 
-        link="/other-skills"
+        link="/"
       />
     </div>
   );
