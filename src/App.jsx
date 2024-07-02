@@ -10,8 +10,7 @@ import CardContainer from './Components/CardContainer'
 import './App.css'; // Optional: for styling
 
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
   const Home = () => (
   <div>
   
