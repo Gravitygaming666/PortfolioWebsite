@@ -31,11 +31,9 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "cache": ["node_modules"]
-      }
-      }
+      "use": "@vercel/static-build"
+    }
+ 
   ],
   "routes": [
     {
