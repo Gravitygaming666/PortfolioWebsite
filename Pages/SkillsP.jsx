@@ -26,8 +26,11 @@ const codingSkills = ["Python", "HTML", "CSS", "React", "C#", "W3C requirements"
         skills={otherSkills} 
         link="/"
       />
+      
     </div>
+    
   );
-}
+};
+
 
 export default SkillsP;

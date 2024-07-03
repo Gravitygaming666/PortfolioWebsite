@@ -14,10 +14,9 @@ function App() {
   const Home = () => (
   <div>
   
-  <br></br>
   <DownloadBox /> {/* Add the DownloadBox component here */}
   <CardContainer />
-  <br></br>
+  
 </div>
 );
 
@@ -27,6 +26,8 @@ function App() {
 
     <Router>
       <div>
+      <br></br>
+      <br></br>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -37,6 +38,8 @@ function App() {
         </Routes>
         
         <Footer />
+        <br></br>
+        <br></br>
       </div>
     </Router>
  )
