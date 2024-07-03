@@ -26,7 +26,7 @@ const DownloadBox = () => {
           Download CV
         </button>
       </div>
-      <img className="image" src="Public/Ryan.png" alt="Description" />
+      <img className="image" src="/public/Ryan.png" alt="Ryan" />
       
     </div>
   );
