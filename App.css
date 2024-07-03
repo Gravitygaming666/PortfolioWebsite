@@ -305,3 +305,21 @@ font-size: 18px;
   align-items: center;
   margin: 10px;
 }
+
+/* src/ImageText.css */
+.item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.item img {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.item p {
+  flex: 1;
+  margin: 0;
+}

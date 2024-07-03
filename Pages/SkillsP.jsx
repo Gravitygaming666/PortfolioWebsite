@@ -2,6 +2,7 @@ import React from 'react';
 import SkillCard from '../Components/SkillCard';
 import '../App.css'; // Optional: for styling
 
+
 const SkillsP = () => {
 const codingSkills = ["Python", "HTML", "CSS", "React", "C#", "W3C requirements"];
   const softSkills = ["Keeping focus", "Social skills", "Problem solving", "Growth mindset", "Teamwork", "Client Facing"];
@@ -24,7 +25,7 @@ const codingSkills = ["Python", "HTML", "CSS", "React", "C#", "W3C requirements"
       <SkillCard 
         icon="/Project.png" 
         skills={otherSkills} 
-        link="/"
+        link="/Documentation.jsx"
       />
       
     </div>
