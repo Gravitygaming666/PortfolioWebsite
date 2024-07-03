@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import NavBar from './Components/Navbar.jsx';
+import NavBar from './Components/navbar.jsx';
 import { BrowserRouter as Router, Route, Routes, Navigate  } from 'react-router-dom';
 import Hobbies from './Pages/Hobbies.jsx';
 import Projects from './Pages/Projects.jsx';
 import Skills from './Pages/SkillsP.jsx';
 import DownloadBox from './Components/Downloadbox.jsx';
 import Footer from './Components/Footer.jsx';
-import CardContainer from './Components/CardContainer'
+import CardContainer from './Components/CardContainer';
 import './App.css'; // Optional: for styling
 
 function App() {
