@@ -12,7 +12,7 @@ const codingSkills = ["Python", "HTML", "CSS", "React", "C#", "W3C requirements"
   return (
     <div className="Skillsp">
       <SkillCard 
-        icon="/public/CodingSkill.png" 
+        icon="/CodingSkill.png" 
         skills={codingSkills} 
         link="/"
       />
