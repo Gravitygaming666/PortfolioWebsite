@@ -4,32 +4,31 @@ import '../App.css'; // Optional: for styling
 
 
 const SkillsP = () => {
-const codingSkills = ["Python", "HTML", "CSS", "React", "C#", "W3C requirements"];
-  const softSkills = ["Keeping focus", "Social skills", "Problem solving", "Growth mindset", "Teamwork", "Client Facing"];
-  const otherSkills = ["Spreadsheet", "Testing", "Planning", "Design", "Feedback", "Report writing"];
-
-
+  const programmingSkills = ['Python', 'HTML', 'CSS', 'React', 'W3C requirements'];
+  const personalSkills = ['Keeping focus', 'Social skills', 'Problem solving', 'Growth mindset', 'Teamwork', 'Client facing'];
+  const documentationSkills = ['Spreadsheets', 'Testing', 'Design', 'Feedback', 'Report writing'];
 
   return (
-    <div className="Skillsp">
-      <SkillCard 
-        icon="/CodingSkill.png" 
-        skills={codingSkills} 
-        link="/"
+    <div className="home-page">
+      <SkillCard
+        title="Programming Skills"
+        icon="/CodingSkill.png"
+        skills={programmingSkills}
+        link="/ProgrammingSkills.jsx"
       />
-      <SkillCard 
-        icon="/PersonalSkills.png" 
-        skills={softSkills} 
-        link="/"
+      <SkillCard
+        title="Personal Skills"
+        icon="/PersonalSkills.png"
+        skills={personalSkills}
+        link="/personalSkills.jsx"
       />
-      <SkillCard 
-        icon="/Project.png" 
-        skills={otherSkills} 
+      <SkillCard
+        title="Documentation Skills"
+        icon="/Skills.png"
+        skills={documentationSkills}
         link="/Documentation.jsx"
       />
-      
     </div>
-    
   );
 };
 

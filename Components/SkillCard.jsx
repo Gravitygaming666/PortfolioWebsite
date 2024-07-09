@@ -2,15 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 
-const SkillCard = ({ icon, skills, link }) => {
+const SkillCard = ({ icon, skills, title, link }) => {
   return (
     <div className="skill-card">
+      <h2>{title}</h2>
       <div className="icon">
-        <img src={icon} alt="icon" />
+        <img src={icon} alt={`${title} icon`} />
       </div>
       <div className="skills">
-        {skills.map((skill) => (
-          <div key={skill.id} className="skill">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill">
             {skill}
           </div>
         ))}
