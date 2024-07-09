@@ -10,8 +10,7 @@ const Documentation = () => {
       <div className="content">
         <SkillsContainers imgS="image1.jpg" text="This is some text next to image 1." />
         <SkillsContainers imgS="image2.jpg" text="This is some text next to image 2." />
-        <SkillsContainers imgS="image3.jpg" text="This is some text next to image 3." />
-        
+        <SkillsContainers imgS="image3.jpg" text="This is some text next to image 3." />        
       </div>
     );
   };
