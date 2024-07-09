@@ -9,8 +9,8 @@ const SkillCard = ({ icon, skills, link }) => {
         <img src={icon} alt="icon" />
       </div>
       <div className="skills">
-        {skills.map((skill, index) => (
-          <div key={index} className="skill">
+        {skills.map((skill) => (
+          <div key={skill.id} className="skill">
             {skill}
           </div>
         ))}
@@ -21,6 +21,7 @@ const SkillCard = ({ icon, skills, link }) => {
     </div>
   );
 };
+
 
 export default SkillCard;
   
