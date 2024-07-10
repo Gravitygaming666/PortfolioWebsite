@@ -322,4 +322,6 @@ font-size: 18px;
 .item p {
   flex: 1;
   margin: 0;
+  color: #75D9EA;
 }
+

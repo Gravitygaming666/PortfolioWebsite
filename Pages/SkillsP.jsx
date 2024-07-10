@@ -1,6 +1,7 @@
 import React from 'react';
 import SkillCard from '../Components/SkillCard';
 import '../App.css'; // Optional: for styling
+import Documentation from '../Pages/Documentation';
 
 
 const SkillsP = () => {
@@ -14,19 +15,21 @@ const SkillsP = () => {
         title="Programming Skills"
         icon="/CodingSkill.png"
         skills={programmingSkills}
-        link="/ProgrammingSkills.jsx"
+        link="/ProgrammingSkills"
+         
       />
       <SkillCard
         title="Personal Skills"
         icon="/PersonalSkills.png"
         skills={personalSkills}
-        link="/personalSkills.jsx"
+        link="/personalSkills"
       />
       <SkillCard
         title="Documentation Skills"
         icon="/Skills.png"
         skills={documentationSkills}
-        link="/Documentation.jsx"
+        link="/Documentation"
+        
       />
     </div>
   );
