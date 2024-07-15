@@ -274,7 +274,7 @@ font-size: 18px;
 }
 
 .icon img {
-  width: 100x;
+  width: 100xp;
   height: 100px;
 }
 
@@ -314,13 +314,47 @@ font-size: 18px;
 }
 
 .item img {
-  width: 150px; /* Adjust size as needed */
-  height: auto;
+  width: 300px; /* Adjust size as needed */
+  height: 300px;
   margin-right: 20px;
 }
 
 .item p {
   flex: 1;
+  margin: 0;
+  color: #75D9EA;
+}
+
+.hobby-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobby-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.hobby-item img {
+  width: 100px; /* adjust the size as needed */
+  height: 100px; /* adjust the size as needed */
+  margin-right: 20px;
+}
+
+.info {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px; /* adjust the width as needed */
+}
+
+.info h2 {
+  margin: 0 0 10px 0;
+  color: #75D9EA;
+}
+
+.info p {
   margin: 0;
   color: #75D9EA;
 }
