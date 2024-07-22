@@ -16,11 +16,10 @@ const DownloadBox = () => {
         <h2>My Name is Ryan</h2>
        
         <p>
-        I like coding as I learned to code myself and did it in education. 
-        Also I like playing video games such as dark souls and 
-        other dark souls type games. 
-        The reason I like these types of games is because I like to be challenged 
-        and I feel like these games can provide the right amount of challenge.
+        I like coding because I learned it myself and practiced it during my education. 
+        I also enjoy playing video games, especially Dark Souls and similar games. 
+        The reason I like these types of games is that I enjoy being challenged, 
+        and I feel they provide the right amount of difficulty.
         </p>
         <button className="download-button" onClick={handleDownload}>
           Download CV

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css'; // Assuming you'll add CSS here
+import '../CSSFolder/Skills.css'; // Assuming you'll add CSS here
 
 function Card({ image, title, link }) {
   return (

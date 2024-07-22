@@ -1,0 +1,68 @@
+/* ../CSSFolder/Project.css */
+/* src/Project.css */
+.projectInfo {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add space between projects */
+  align-items: center;
+}
+
+.Image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.ProjectImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* Ensure the image covers the container while maintaining aspect ratio */
+}
+
+.info {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #00f1f1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ProjectInfo h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #00f1f1;
+}
+
+.ProjectInfo p {
+  margin: 0;
+  margin-bottom: 10px;  /* Add margin to create space between paragraphs and button */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+button {
+  background-color: #00f1f1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #444;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #00c2c2;
+}

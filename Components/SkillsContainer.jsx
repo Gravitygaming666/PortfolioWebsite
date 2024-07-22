@@ -1,6 +1,6 @@
 // SkillsContainer.jsx
 import React from 'react';
-import '../App.css';
+import '../CSSFolder/Skills.css';
 
 const  SkillsContainers = ({ imgS, text }) => {
   return (

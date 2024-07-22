@@ -1,0 +1,43 @@
+.project-card {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .project-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  .project-content {
+    flex: 1;
+  }
+  
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    margin-bottom: 10px;
+  }
+  
+  .view-more-btn {
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #777;
+  }
+  

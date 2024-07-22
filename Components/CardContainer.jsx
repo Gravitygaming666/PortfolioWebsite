@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import '../App.css'; // Assuming you'll add CSS here
+import '../CSSFolder/Skills.css'; // Assuming you'll add CSS here
 
 function CardContainer() {
   const cards = [

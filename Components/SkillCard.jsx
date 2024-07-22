@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
+import '../CSSFolder/Skills.css';
 
 const SkillCard = ({ icon, skills, title, link }) => {
   return (
