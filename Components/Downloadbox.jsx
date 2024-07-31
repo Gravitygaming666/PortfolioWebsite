@@ -13,13 +13,14 @@ const DownloadBox = () => {
   return (
     <div className="container">
       <div className="download-box">
-        <h2>My Name is Ryan</h2>
+        <h2>Ryan Hill</h2>
        
         <p>
-        I like coding because I learned it myself and practiced it during my education. 
-        I also enjoy playing video games, especially Dark Souls and similar games. 
-        The reason I like these types of games is that I enjoy being challenged, 
-        and I feel they provide the right amount of difficulty.
+        An aspiring Software Developer based in Bolton, with experience
+         learning coding languages independently and collaborating on projects.
+          Proficient in JavaScript, C++, C#, React, HTML5 and CSS. 
+        A complex problem solver with an analytical mind and passion
+         for learning new technologies and programming languages. 
         </p>
         <button className="download-button" onClick={handleDownload}>
           Download CV

@@ -29,7 +29,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   justify-content: center; /* Center items horizontally */
-
+  color: #373232;
 }
 
 h1 {
@@ -198,6 +198,7 @@ color: #75D9EA;
 font-size: 18px;
 
 }
+
 
 
 
