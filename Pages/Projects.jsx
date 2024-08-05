@@ -8,11 +8,13 @@ import DeclanImage from '/DeclansWebsite.jpg'; // Add the path to your image
 
 const ProjectPage = () => {
   return (
-    <div>
+    <div className= "Cproject"> 
       <ProjectCard
         image={GMACSImage}
         title="GMACS (Greater Manchester Apprenticeship and Careers Service)"
-        description="This is the client work that I have done and the client is called GMACS. They wanted me to look at a page in terms of accessibility and seeing what could be improved on their site but decided to take it one step further by doing their whole site. If you want to see a step-by-step process on how I did this please click the view more button."
+        description="I was employed by GMACS to create an accessibility report on a single webpage from their careers website. I took the work experience study a stage further by reporting on the whole website,
+         looking at each page and making recommendations concerning W3C accessibility guidelines and suggesting what could be improved on their site. 
+        Select view more to view details of the report that I presented in person to the client:"
         link="/"
       />
       <ProjectCard
@@ -24,7 +26,8 @@ const ProjectPage = () => {
       <ProjectCard
         image={DeclanImage}
         title="Declan's Website"
-        description="Information about that project"
+        description="I designed and coded a website for fellow intern Declan.
+This involve researching content, designing the site structure. Managing content collection and liaising with Declan, my client and building the website using html and css style sheets."
         link="/"
       />
     </div>
