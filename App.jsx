@@ -7,7 +7,7 @@ import Skills from './Pages/SkillsP.jsx';
 import DownloadBox from './Components/Downloadbox.jsx';
 import Footer from './Components/Footer.jsx';
 import CardContainer from './Components/CardContainer';
-import Documentation from './Pages/Documentation.jsx';
+import DocumentationP from './Pages/DocumentationP.jsx';
 import './App.css'; // Optional: for styling
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
           <Route path="/skillsP" element={<Skills />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />
-        <Route path="/documentation" component={Documentation} />
+        <Route path="/DocumentationP" component={DocumentationP} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes to Home */}
         </Routes>
         

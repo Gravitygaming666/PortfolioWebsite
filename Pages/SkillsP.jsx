@@ -29,7 +29,7 @@ const SkillsP = () => {
         title="Documentation Skills"
         icon="/Skills.png"
         skills={documentationSkills}
-        link="/Documentation"
+        link="/DocumentationP"
         
       />
     </div>
