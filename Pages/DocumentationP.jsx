@@ -2,34 +2,50 @@ import React from "react";
 import SkillsContainers from "../Components/SkillsContainer";
 import "../App.css";
 
+const items = [
+  {
+    icon: '/Spreadsheet.png',
+    title: 'Spreadsheet',
+    description:
+      'Spreadsheet Skill.',
+  },
+  {
+    icon: '/Testing.png',
+    title: 'Testing',
+    description:
+      'Testing skill',
+  },
+  {
+    icon: '/Planning.png',
+    title: 'Planning',
+    description:
+      'Planning Skill',
+  },
+  {
+    icon: '/Feedback.png',
+    title: 'Feedback',
+    description:
+      'Feedback skill',
+  },
+  {
+    icon: '/ReportWriting.png',
+    title: 'Report Writing',
+    description:
+      'Report writing skill',
+  },
+];
 
-  const items = [
-    {
-      icon: '/public/DestinyIcon.png',
-      title: 'Destiny 2',
-      description:
-        'This is text',
-    },
-    {
-      icon: 'DestinyIcon',
-      title: 'Star Wars',
-      description:
-        'This is text',
-    },
-  ];
-
-
-
+ 
 
 const DocumentationP = () => {
     return (
-      <div className="container">
+      <div className="Doccontainer">
       {items.map((item, index) => (
         <SkillsContainers
-        key={index}
-        icon={item.icon}
-        title={item.title}
-        description={item.description}
+          key={index}
+          icon={item.icon}
+          title={item.title}
+          description={item.description}
         />
       ))}
     </div>

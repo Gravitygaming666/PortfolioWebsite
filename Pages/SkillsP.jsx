@@ -16,14 +16,14 @@ const SkillsP = () => {
         title="Programming Skills"
         icon="/CodingSkill.png"
         skills={programmingSkills}
-        link="/ProgrammingSkills"
+        link="/ProgrammingSkillsP"
          
       />
       <SkillCard
         title="Personal Skills"
         icon="/PersonalSkills.png"
         skills={personalSkills}
-        link="/personalSkills"
+        link="/PersonalSkillsP"
       />
       <SkillCard
         title="Documentation Skills"

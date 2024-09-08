@@ -209,3 +209,14 @@ font-size: 18px;
   
 
 }
+
+
+.DocContainer{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+
+
+
+}

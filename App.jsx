@@ -8,6 +8,8 @@ import DownloadBox from './Components/Downloadbox.jsx';
 import Footer from './Components/Footer.jsx';
 import CardContainer from './Components/CardContainer';
 import DocumentationP from './Pages/DocumentationP.jsx';
+import PersonalSkillsP from './Pages/PersonalSkillsP.jsx';
+import ProgrammingSkillsP from './Pages/ProgrammingSkillsP.jsx';
 import './App.css'; // Optional: for styling
 
 function App() {
@@ -37,7 +39,9 @@ function App() {
           <Route path="/skillsP" element={<Skills />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/hobbies" element={<Hobbies />} />
-        <Route path="/DocumentationP" component={DocumentationP} />
+        <Route path="/DocumentationP" element={<DocumentationP />} />
+        <Route path="/PersonalSkillsP" element={<PersonalSkillsP />} />
+        <Route path="/ProgrammingSkillsP" element={<ProgrammingSkillsP />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes to Home */}
         </Routes>
         
@@ -45,7 +49,7 @@ function App() {
         <br></br>
         <br></br>
       </div>
-    
+      
     </Router>
  )
 }

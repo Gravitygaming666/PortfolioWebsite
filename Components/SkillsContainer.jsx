@@ -1,10 +1,10 @@
 // SkillsContainer.jsx
 import React from 'react';
-import '../CSSFolder/Skills.css';
+import "../CSSFolder/SkillInfoPages.css"
 
-const  SkillsContainers = ({ icon, title, description }) => {
+const  SkillsContainers = ({ icon, title, description}) => {
   return (
-    <div className="Component">
+    <div className="component">
     <img src={icon} alt={`${title} Icon`} className="icon" />
     <div className="content">
       <h2>{title}</h2>
