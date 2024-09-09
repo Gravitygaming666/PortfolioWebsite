@@ -10,6 +10,9 @@ import CardContainer from './Components/CardContainer';
 import DocumentationP from './Pages/DocumentationP.jsx';
 import PersonalSkillsP from './Pages/PersonalSkillsP.jsx';
 import ProgrammingSkillsP from './Pages/ProgrammingSkillsP.jsx';
+import PacmanProjectP from './Pages/PacmanProjectP.jsx';
+import GMACSpage from './Pages/GMACSpage.jsx';
+import DeclanProject from './Pages/DeclanProject.jsx';
 import './App.css'; // Optional: for styling
 
 function App() {
@@ -42,6 +45,9 @@ function App() {
         <Route path="/DocumentationP" element={<DocumentationP />} />
         <Route path="/PersonalSkillsP" element={<PersonalSkillsP />} />
         <Route path="/ProgrammingSkillsP" element={<ProgrammingSkillsP />} />
+        <Route path="/PacmanProjectP" element={<PacmanProjectP />} />
+        <Route path="/GMACSpage" element={<GMACSpage />} />
+        <Route path="/DeclanProject" element={<DeclanProject />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Redirect unknown routes to Home */}
         </Routes>
         
